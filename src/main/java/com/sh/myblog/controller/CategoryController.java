@@ -2,9 +2,7 @@ package com.sh.myblog.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RestController;
-import com.sh.myblog.controller.BaseController;
 
 /**
  * <p>
