@@ -1,7 +1,9 @@
 package com.sh.myblog.service;
 
-import com.sh.myblog.entity.Post;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.sh.myblog.entity.Post;
 
 /**
  * <p>
@@ -13,4 +15,19 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface PostService extends IService<Post> {
 
+
+
+    /**
+     * 初始化首页排行榜
+     */
+    void initIndexWeekRank();
+
+    /**
+     * 分页查询
+     * @param page
+     * @param categoryId
+     * @param order
+     * @return
+     */
+    public IPage paging(Page page, Long categoryId, String order);
 }

@@ -7,7 +7,7 @@
             <#list results as post>
                 <dd>
                     <a href="/post/${post.id}">${post.title}</a>
-                    <span><i class="iconfont icon-pinglun1"></i> ${post.commentCount}</span>
+                    <span><i class="iconfont icon-pinglun1"></i> ${post.commentcount}</span>
                 </dd>
             </#list>
         </@hots>

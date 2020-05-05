@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * @author Sun
  */
+//@EnableCaching
 @SpringBootApplication
 @MapperScan("com.sh.myblog.mapper")
 public class BlogApplication {

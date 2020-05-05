@@ -4,6 +4,10 @@ spring:
     password: 123456
     url: jdbc:mysql:///eblog
     driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 49.234.44.149
+    port: 6379
+    password:
 
 
 mybatis-plus:
